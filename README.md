@@ -4,20 +4,18 @@ A curated list of resources, guides, cheatsheets, and tools I've found useful ac
 
 ## Contents
 
-- [Coding Resources Collection](#coding-resources-collection)
-  - [Contents](#contents)
-  - [Version Control](#version-control)
-  - [Python Ecosystem](#python-ecosystem)
-  - [R Ecosystem](#r-ecosystem)
-  - [Databases \& SQL](#databases--sql)
-  - [Machine Learning](#machine-learning)
-  - [Data Formats \& Serialisation](#data-formats--serialisation)
-  - [Data Platforms \& Sources](#data-platforms--sources)
-  - [Business Intelligence Tools](#business-intelligence-tools)
-  - [Text Editors \& General Dev Tools](#text-editors--general-dev-tools)
-  - [Learning \& Practice](#learning--practice)
-  - [Documentation \& Presentation](#documentation--presentation)
-  - [Sections to Investigate and Add](#sections-to-investigate-and-add)
+- [Version Control](#version-control)
+- [Python Ecosystem](#python-ecosystem)
+- [R Ecosystem](#r-ecosystem)
+- [Databases \& SQL](#databases--sql)
+- [Machine Learning](#machine-learning)
+- [Data Formats \& Serialisation](#data-formats--serialisation)
+- [Data Platforms \& Sources](#data-platforms--sources)
+- [Business Intelligence Tools](#business-intelligence-tools)
+- [Text Editors \& General Dev Tools](#text-editors--general-dev-tools)
+- [Learning \& Practice](#learning--practice)
+- [Documentation \& Presentation](#documentation--presentation)
+- [Sections to Investigate & Add](#sections-to-investigate--add)
 
 ## Version Control
 
@@ -449,7 +447,7 @@ JSON (JavaScript Object Notation) is a lightweight data-interchange format. It i
 
 </details>
 
-## Sections to Investigate and Add
+## Sections to Investigate & Add
 
 - Cloud Platforms: AWS, Azure, GCP, Heroku, etc.
 - Docker/Containers
