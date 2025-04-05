@@ -435,7 +435,12 @@ JSON (JavaScript Object Notation) is a lightweight data-interchange format. It i
 
 ## Documentation & Presentation
 
+<details>
+<summary>General Documentation</summary>
+
 - [The Documentation Compendium - race2infinity](https://github.com/race2infinity/The-Documentation-Compendium)
+
+</details>
 
 <details>
 <summary>Markdown</summary>
