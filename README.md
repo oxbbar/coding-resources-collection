@@ -3,12 +3,15 @@
 A curated list of resources, guides, cheatsheets, and tools I've found useful across various coding topics.
 
 ## Contents
+
 - [Coding Resources Collection](#coding-resources-collection)
   - [Contents](#contents)
   - [Version Control](#version-control)
   - [Python Ecosystem](#python-ecosystem)
   - [R Ecosystem](#r-ecosystem)
   - [Databases \& SQL](#databases--sql)
+  - [Machine Learning](#machine-learning)
+  - [Data Formats \& Serialisation](#data-formats--serialisation)
   - [Data Platforms \& Sources](#data-platforms--sources)
   - [Business Intelligence Tools](#business-intelligence-tools)
   - [Text Editors \& General Dev Tools](#text-editors--general-dev-tools)
@@ -57,7 +60,7 @@ A curated list of resources, guides, cheatsheets, and tools I've found useful ac
 <details>
 <summary>GitHub Platform</summary>
 
-- GitHub Desktop:
+- GitHub Desktop
     - [GitHub Desktop (Git GUI)](https://desktop.github.com/)
     - [How to Use GitHub Desktop: A GitHub Desktop Tutorial](https://www.simplilearn.com/how-to-use-github-desktop-tutorial-article)
     - [Git, GitHub, & GitHub Desktop for beginners (YouTube)](https://www.youtube.com/watch?v=8Dd7KRpKeaE)
@@ -65,13 +68,13 @@ A curated list of resources, guides, cheatsheets, and tools I've found useful ac
 - GitKraken
     - [GitKraken](https://www.gitkraken.com/)
 
-- GitHub Pages:
+- GitHub Pages
     - [GitHub Pages](https://pages.github.com/)
     - [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
     - [What is GitHub Pages? (YouTube)](https://www.youtube.com/watch?v=2MsN8gpT6jY)
     - [Getting Started with GitHub Pages (YouTube)](https://www.youtube.com/watch?v=QyFcl_Fba-k)
 
-- Profile & Presentation:
+- Profile & Presentation
     - [GitHub Skills](https://skills.github.com/)
     - [How to present a GitHub project for your resume](https://thehftguy.com/2016/10/24/heres-how-to-make-a-good-github-project-for-your-resume/)
     - [GitHub Profile Readme (YouTube)](https://www.youtube.com/watch?v=KhGWbt1dAKQ)
@@ -123,23 +126,34 @@ A curated list of resources, guides, cheatsheets, and tools I've found useful ac
 <summary>Python Packages</summary>
 
 - Numpy
-    - [NumPy Manual (Latest)](https://numpy.org/doc/stable/)
+  - [NumPy](https://numpy.org/)
+  - [NumPy Manual (Latest)](https://numpy.org/doc/stable/)
 
 - pandas
-    - []()
+  - [pandas](https://pandas.pydata.org/)
+  - [pandas documentation](https://pandas.pydata.org/docs/)
 
 - scikit-learn
-    - []()
-    - []()
+  - [scikit-learn](https://scikit-learn.org/stable/index.html)
+  - [Scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html)
+  - [Scikit-learn API Reference](https://scikit-learn.org/stable/api/index.html)
+  - [Scikit-learn Tutorials](https://scikit-learn.org/1.4/tutorial/index.html)
 
 - Matplotlib
-    - []()
+  - [Matplotlib](https://matplotlib.org/)
+  - [Matplotlib documentation](https://matplotlib.org/stable/index.html)
 
 - seaborn
-    - []()
+  - [seaborn](https://seaborn.pydata.org/)
+  - [seaborn tutorial](https://seaborn.pydata.org/tutorial.html)
 
 - statsmodels
-    - []()
+  - [statsmodels](https://www.statsmodels.org/stable/index.html)
+  - [statsmodels User Guide](https://www.statsmodels.org/stable/user-guide.html)
+
+- PyGWalker
+  - [PyGWalker](https://kanaries.net/pygwalker)
+  - [PyGWalker docs](https://docs.kanaries.net/pygwalker)
 
 </details>
 
@@ -212,6 +226,120 @@ A curated list of resources, guides, cheatsheets, and tools I've found useful ac
 <summary>Database Comparisons</summary>
 
 - [SQLite vs MySQL vs PostgreSQL: A Comparison Of RDBMS](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
+
+</details>
+
+## Machine Learning
+
+<details>
+<summary>Core Concepts & Theory</summary>
+
+- [Elements of Statistical Learning (Book - Advanced)](https://hastie.su.domains/ElemStatLearn/)
+- [Introduction to Statistical Learning (Book - Applied w/ R Labs)](https://www.statlearning.com/)
+- [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
+
+</details>
+
+<details>
+<summary>Preprocessing & Pipelines</summary>
+
+- Pipelines
+  - [sklearn.pipeline.Pipeline](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
+  - [User Guide: Pipelines and Composite Estimators](https://scikit-learn.org/stable/modules/compose.html#pipeline)
+
+- Scaling
+  - [sklearn.preprocessing.StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)
+  - [sklearn.preprocessing.MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
+  - [sklearn.preprocessing.RobustScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html)
+  - [User Guide: Preprocessing data (Scaling)](https://scikit-learn.org/stable/modules/preprocessing.html#scaling-features-to-a-range)
+
+- Dimensionality Reduction (PCA)
+  - [sklearn.decomposition.PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
+  - [User Guide: Principal component analysis (PCA)](https://scikit-learn.org/stable/modules/decomposition.html#pca)'
+
+- Encoding Categorical Features
+  - [pandas.get_dummies](https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html)
+  - [sklearn.preprocessing.OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html)
+  - [User Guide: Encoding categorical features](https://scikit-learn.org/stable/modules/preprocessing.html#encoding-categorical-features)
+
+</details>
+
+<details>
+<summary>Model Selection & Hyperparameter Tuning</summary>
+
+- GridSearchCV
+  - [sklearn.model_selection.GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
+  - [User Guide: Tuning the hyper-parameters of an estimator](https://scikit-learn.org/stable/modules/grid_search.html)
+  - [Grid Search VS Random Search VS Bayesian Optimization](https://medium.com/data-science/grid-search-vs-random-search-vs-bayesian-optimization-2e68f57c3c46)
+
+- RandomizedSearchCV
+  - [sklearn.model_selection.RandomizedSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html)
+
+- Cross-Validation
+  - [User Guide: Cross-validation: evaluating estimator performance](https://scikit-learn.org/stable/modules/cross_validation.html)
+  - [sklearn.model_selection.StratifiedKFold](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedKFold.html)
+  - [sklearn.model_selection.StratifiedShuffleSplit](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedShuffleSplit.html)
+  - [sklearn.model_selection.cross_val_score](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_score.html)
+  - [sklearn.model_selection.cross_validate](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_validate.html) (Allows multiple metrics)
+
+</details>
+
+<details>
+<summary>Model Evaluation & Metrics</summary>
+
+- [User Guide: Model evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html)
+
+- Classification Metrics
+  - [sklearn.metrics.accuracy_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html)
+  - [sklearn.metrics.precision_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html)
+  - [sklearn.metrics.recall_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html)
+  - [sklearn.metrics.f1_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html)
+  - [sklearn.metrics.classification_report](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html)
+  - [sklearn.metrics.confusion_matrix](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html)
+  - [sklearn.metrics.ConfusionMatrixDisplay](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.ConfusionMatrixDisplay.html)
+
+- ROC Curve & AUC
+  - [sklearn.metrics.roc_curve](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_curve.html)
+  - [sklearn.metrics.auc](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.auc.html)
+  - [sklearn.metrics.RocCurveDisplay](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.RocCurveDisplay.html)
+
+</details>
+
+<details>
+<summary>Specific Models</summary>
+
+- Support Vector Machines (SVM)
+  - [sklearn.svm.SVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
+  - [User Guide: Support Vector Machines](https://scikit-learn.org/stable/modules/svm.html)
+
+- Decision Trees
+  - [sklearn.tree.DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+  - [User Guide: Decision Trees](https://scikit-learn.org/stable/modules/tree.html)
+
+- Naive Bayes
+  - [sklearn.naive_bayes.CategoricalNB](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.CategoricalNB.html)
+  - [User Guide: Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html)
+
+- Logistic Regression
+  - [sklearn.linear_model.LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+  - [User Guide: Logistic Regression](https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression)
+  - [statsmodels.discrete.discrete_model.Logit](https://www.statsmodels.org/stable/generated/statsmodels.discrete.discrete_model.Logit.html) (If you want to keep the statsmodels reference)
+
+</details>
+
+## Data Formats & Serialisation
+
+<details>
+<summary>JSON (JavaScript Object Notation)</summary>
+
+JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. 
+
+- [Introducing JSON](https://www.json.org/json-en.html) (Official Site & Grammar)
+- [MDN Web Docs - JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+- [JSONLint Editor](https://jsonlint.com/)
+  - JSONLint is a validator and reformatter for JSON.
+- [JSON Validator - Code Beautify](https://codebeautify.org/jsonvalidator)
+  - JSON Validator is an easy-to-use tool to validate JSON data.
 
 </details>
 
@@ -307,10 +435,12 @@ A curated list of resources, guides, cheatsheets, and tools I've found useful ac
 
 ## Documentation & Presentation
 
+- [The Documentation Compendium - race2infinity](https://github.com/race2infinity/The-Documentation-Compendium)
+
 <details>
 <summary>Markdown</summary>
 
--   [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
 </details>
 
